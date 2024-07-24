@@ -64,6 +64,12 @@ app.use('/api/teams', teamRoutes)
 app.use('/api/user', userRoutes)
 
 
+//script
+app.use(express.static('../frontend/build'))
+app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"))
+})
+
 //connect to mongo
 mongoose.connect(process.env.MONGO_URI)
     .then( () => {

@@ -4,7 +4,6 @@ import Nav from './components/Nav';
 import Footer from './components/Fotter';
 import Login from './components/Login';
 import Signup from './components/Signup';
-//import Register from './components/Register';
 import Home from './components/Home';
 import Profile from './components/Profile';
 import Vote from './components/Vote';

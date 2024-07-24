@@ -1,0 +1,276 @@
+/* NAVBAR */
+body{
+  background-color: rgb(248, 237, 227);
+}
+
+.nav-ul{
+  margin-top: 0;
+  max-width: 100%;
+  background-color: rgb(72, 38, 30);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.nav-ul li{
+  display: inline-block;
+  padding-right: 55px;
+}
+.nav-ul li h3{
+  color: rgb(223, 211, 195);
+  font-size: 22px;
+  transition: 0.3s;
+}
+.nav-ul li h3:hover{
+  color: rgb(208, 184, 168);
+}
+.nav-ul .login-bt{
+  margin-left: auto;
+}
+.loginbtdiv{
+  text-align: right;
+  margin-left: auto;
+}
+
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
+.userName{
+  font-size: large;
+  color: azure;
+}
+/* FOOTER */
+
+.footer{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  background-color: rgb(208, 184, 168);
+  align-items: center;
+  position: absolute;
+}
+.footer p{
+  text-align: center;
+}
+
+/* LOGIN & REGISTER */
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(237, 224, 214);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  max-width: 400px;
+  margin: auto;
+}
+
+
+.inputBox {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.inputButton {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: rgb(135, 75, 61);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.inputButton:hover {
+  background-color: rgb(107, 60, 50);
+}
+
+/* SHOWING TEAMS / HOME */
+.pictures {
+  width: auto;
+  height: 20px;
+  object-fit: contain;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.teams-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.teams-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 80%;
+  background-color: rgb(244, 233, 229);
+  border-radius: 8px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.team-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #6969695d;
+  align-items: center;
+}
+
+.team-item:nth-child(even) {
+  background-color: rgb(235, 225, 222);
+}
+
+.team-name {
+  flex: 3;
+  text-align: left;
+  font-weight: bold;
+}
+
+.team-votes {
+  flex: 2;
+  text-align: center;
+}
+
+.team-other {
+  flex: 2;
+  text-align: right;
+}
+.teams-h3{
+  font-size: xx-large;
+  margin-top: auto; 
+}
+
+/* PROFIL */
+.profile-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #faf6f2;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.profile-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: #444;
+  text-decoration: underline;
+}
+
+.profile-details {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.profile-details p {
+  margin-bottom: 10px;
+}
+
+.profile-not-found {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+  color: #d9534f;
+}
+
+/* VOTE */
+.vote-container2 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #faf6f2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.vote-container2 h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.teams-list2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.team-item2 {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 150px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.team-name2 {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.vote-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.vote-form label {
+  margin-bottom: 10px;
+}
+
+.vote-form select {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #e7e5e5;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.vote-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #7e550d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.vote-form button:hover {
+  background-color: #5c3f0b;
+}

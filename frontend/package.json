@@ -1,5 +1,5 @@
 {
-  "proxy":"http://localhost:5000",
+  "proxy":"https://mern-azure-app-defzdkgdemcrakak.northeurope-01.azurewebsites.net:5000",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,

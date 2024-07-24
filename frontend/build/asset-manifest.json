@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.16724e02.css",
+    "main.js": "/static/js/main.986f06d6.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/horvat.png": "/static/media/horvat.7d7c732ff7951e327818.png",
+    "static/media/alban.png": "/static/media/alban.29bf4a7a5d24436e3fbc.png",
+    "static/media/lengyel.png": "/static/media/lengyel.fb8a429ee557606580c0.png",
+    "static/media/gruz.png": "/static/media/gruz.7b66cc7b1fa080603c8d.png",
+    "static/media/portugal.png": "/static/media/portugal.7aa68418c7de4dc07b57.png",
+    "static/media/szlovak.png": "/static/media/szlovak.262fded40012ff25aa08.png",
+    "static/media/anglia.png": "/static/media/anglia.841fc3c5dd8b20c06f42.png",
+    "static/media/szerb.png": "/static/media/szerb.766e534b48bfdcf3a278.png",
+    "index.html": "/index.html",
+    "static/media/cseho.svg": "/static/media/cseho.56a15f86d7a5d4b208335265bf7648e7.svg",
+    "static/media/olasz.svg": "/static/media/olasz.3094e87722c26e87e1ffa034fb4bfa11.svg",
+    "static/media/francia.svg": "/static/media/francia.71349a9961dd8ef26e8e9df8e03c0ef1.svg",
+    "main.16724e02.css.map": "/static/css/main.16724e02.css.map",
+    "main.986f06d6.js.map": "/static/js/main.986f06d6.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16724e02.css",
+    "static/js/main.986f06d6.js"
+  ]
+}
